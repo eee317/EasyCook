@@ -1,0 +1,19 @@
+//更改placeholder顏色
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: $primary;
+  opacity: .55; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: $primary;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+  color: $primary;
+}
+
+//下拉選單 三角形 靠右
+.dropdown-toggle::after {
+  float: right;
+  margin-top: 15px;
+}

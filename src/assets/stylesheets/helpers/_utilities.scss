@@ -4,7 +4,17 @@ $utilities: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
 $utilities: map-merge(
   ( 
-    
+    "letter-spacing": (
+      property: letter-spacing,
+      class: text-letter,
+      responsive: true,
+      values: (
+        1: 1px,
+        2: 2px,
+        3: 3px,
+        4: 4px
+      )
+    ),
     // scss-docs-start utils-vertical-align
     "align": (
       property: vertical-align,
@@ -165,6 +175,7 @@ $utilities: map-merge(
     "width": (
       property: width,
       class: w,
+      responsive: true,
       values: (
         25: 25%,
         50: 50%,
@@ -176,7 +187,12 @@ $utilities: map-merge(
     "max-width": (
       property: max-width,
       class: mw,
-      values: (100: 100%)
+      responsive: true,
+      values: (
+        25: 25%,
+        50: 50%,
+        75: 75%,
+        100: 100%)
     ),
     "viewport-width": (
       property: width,

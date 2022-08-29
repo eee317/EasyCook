@@ -1,3 +1,10 @@
 body {
   background-color: $bg-green;
 }
+ul li {
+  //清除marker
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  text-indent: 0;
+}
