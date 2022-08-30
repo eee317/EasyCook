@@ -13,3 +13,14 @@
     @content;
   }
 }
+@mixin index_card_before($bg-color) {
+  content:'';
+  top:76px;
+  right: 53px;
+  position: absolute;
+  background: $bg-color;
+  width: 65%;
+  height: 48%;
+  z-index: 0;
+  border-radius: 10px;
+}

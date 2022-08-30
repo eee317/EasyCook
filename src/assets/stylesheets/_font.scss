@@ -1,0 +1,19 @@
+.fs-md-54px {
+  font-size: 54px;
+}
+@include md-size {
+  .fs-md-78px {
+    font-size: 78px;
+    font-weight: 900;
+  }
+  .writing-md {
+    -webkit-writing-mode: vertical-lr;
+    writing-mode: vertical-lr ;
+  }
+  .rotate-md {
+    transform:rotate(-5deg);
+  }
+  .fs-md-54px {
+    font-size: 54px;
+  }
+}

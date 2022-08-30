@@ -76,6 +76,7 @@ $utilities: map-merge(
     // scss-docs-start utils-position
     "position": (
       property: position,
+      responsive: true,
       values: static relative absolute fixed sticky
     ),
     "top": (
@@ -94,6 +95,7 @@ $utilities: map-merge(
     "end": (
       property: right,
       class: end,
+      responsive: true,
       values: $position-values
     ),
     "translate-middle": (
@@ -177,9 +179,16 @@ $utilities: map-merge(
       class: w,
       responsive: true,
       values: (
+        15: 15%,
+        18: 18%,
+        20: 20%,
+        22: 22%,
         25: 25%,
+        30: 30%,
+        40: 40%,
         50: 50%,
         75: 75%,
+        85: 85%,
         100: 100%,
         auto: auto
       )
@@ -189,6 +198,7 @@ $utilities: map-merge(
       class: mw,
       responsive: true,
       values: (
+        18: 18%,
         25: 25%,
         50: 50%,
         75: 75%,
@@ -207,12 +217,15 @@ $utilities: map-merge(
     "height": (
       property: height,
       class: h,
+      responsive: true,
       values: (
+        18: 18%,
         25: 25%,
         50: 50%,
         75: 75%,
         100: 100%,
-        auto: auto
+        auto: auto,
+        unset: unset,
       )
     ),
     "max-height": (
@@ -479,6 +492,7 @@ $utilities: map-merge(
       rfs: true,
       property: font-size,
       class: fs,
+      responsive: true,
       values: $font-sizes
     ),
     "font-style": (

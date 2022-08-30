@@ -315,6 +315,7 @@ $own-white:         #fff;
 $own-brown:         #8A6721;
 $own-yellow:        #F2C94C;
 $own-skin:          #F9F5E1;
+$dark-green:     #246143;
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
@@ -335,7 +336,8 @@ $theme-colors: (
   "own-white":      $own-white,
   "own-brown":      $own-brown,
   "own-yellow":     $own-yellow,
-  "own-skin":       $own-skin
+  "own-skin":       $own-skin,
+  "dark-green":  $dark-green,
 ) !default;
 // scss-docs-end theme-colors-map
 
@@ -415,7 +417,19 @@ $spacers: (
 
 // scss-docs-start position-map
 $position-values: (
+  r60:-60%,
+  r50:-50%,
+  r40:-40%,
+  r25:-25%,
+  r20: -20%,
   0: 0,
+  5: 5%,
+  10:10%,
+  15:15%,
+  25:25%,
+  30:30%,
+  35:35%,
+  40:40%,
   50: 50%,
   100: 100%
 ) !default;
