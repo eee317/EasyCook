@@ -328,9 +328,9 @@
                   />
                   <ul class="card-text ps-4 ms-md-15 pt-md-15 fs-6">
                     <li><h5 class="card-title fs-md-5 m-0">蛤蠣湯</h5></li>
-                    <li>5分鐘</li>
-                    <li>食材：</li>
-                    <li>醬料</li>
+                    <li>15分鐘</li>
+                    <li>食材：蛤蠣、薑片</li>
+                    <li>醬料：鹽</li>
                   </ul>
                 </div>
                 <button class="float-end btn d-md-none">
@@ -392,14 +392,14 @@
                       ms-md-5
                       mt-md-3
                     "
-                    src="../../libs/img/recipe/蛤蠣湯.jpg"
+                    src="../../libs/img/recipe/豬肉蔥卷.jpg"
                     alt="蛤蠣湯.jpg"
                   />
                   <ul class="card-text p-0 ps-4  ms-md-15 pt-md-15 fs-6">
-                    <li><h5 class="card-title fs-md-5 m-0">蛤蠣湯</h5></li>
-                    <li>5分鐘</li>
-                    <li>食材：</li>
-                    <li>醬料</li>
+                    <li><h5 class="card-title fs-md-5 m-0">豬肉蔥捲</h5></li>
+                    <li>15分鐘</li>
+                    <li>食材：火鍋五花肉片</li>
+                    <li>醬料：烤肉醬</li>
                   </ul>
                 </div>
                 <button class="float-end btn d-md-none">
@@ -460,14 +460,14 @@
                       ms-md-5
                       mt-md-3
                     "
-                    src="../../libs/img/recipe/蛤蠣湯.jpg"
+                    src="../../libs/img/recipe/燙青菜.jpg"
                     alt="蛤蠣湯.jpg"
                   />
                   <ul class="card-text ps-4 p-0 ms-md-15 pt-md-15 fs-6">
-                    <li><h5 class="card-title fs-md-5 m-0">蛤蠣湯</h5></li>
-                    <li>5分鐘</li>
-                    <li>食材：</li>
-                    <li>醬料</li>
+                    <li><h5 class="card-title fs-md-5 m-0">燙青菜</h5></li>
+                    <li>10分鐘</li>
+                    <li>食材：葉菜類蔬菜、蒜頭</li>
+                    <li>醬料：鹽</li>
                   </ul>
                 </div>
                 <button class="float-end btn d-md-none">
@@ -509,7 +509,254 @@
               ps-8 ps-md-15
             "
           >
-            <span class="text-own-orange">家常菜</span>推薦組合
+            <span class="text-own-orange">效率</span>推薦組合
+          </h3>
+          <button
+            class="
+              btn btn-primary
+              text-own-white
+              py-3
+              py-md-4
+              px-md-10 px-7
+              rounded-pill
+              position-absolute
+              bottom-r60
+              end-5 end-md-15
+              w-md-25
+              fs-5
+            "
+          >
+            <i class="fa-solid fa-utensils fs-5 me-2"></i>
+            組合加入餐點
+          </button>
+        </div>
+      </div>
+      <div class="container mt-20">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card bg-card-green-100 pb-md-5 border-0 text-dark-green">
+              <div
+                class="
+                  group-card-area
+                  card-body
+                  d-flex
+                  text-start
+                  text-md-start
+                  align-items-center
+                  justify-content-between
+                  flex-md-column
+                  position-relative
+                "
+              >
+                <div
+                  class="
+                    d-flex
+                    flex-md-column
+                    align-items-md-start
+                    ps-md-4 py-md-4
+                    align-items-center
+                    justify-content-start
+                    index-card-img
+                  "
+                >
+                  <img
+                    class="
+                      img-fluid
+                      rounded-3
+                      w-30 w-md-75
+                      me-md-8
+                      h-25
+                      border-0
+                      ms-md-5
+                      mt-md-3
+                    "
+                    src="../../libs/img/recipe/涼拌豆腐.jpg"
+                    alt="蛤蠣湯.jpg"
+                  />
+                  <ul class="card-text ps-4 ms-md-15 pt-md-15 fs-6">
+                    <li><h5 class="card-title fs-md-5 m-0">涼拌豆腐</h5></li>
+                    <li>5分鐘</li>
+                    <li>食材：中華豆腐、蔥</li>
+                    <li>醬料：醬油膏</li>
+                  </ul>
+                </div>
+                <button class="float-end btn d-md-none">
+                  <i class="fa-solid fa-utensils fs-5 text-primary"></i>
+                </button>
+                <button
+                  href="#"
+                  class="
+                    d-none d-md-block
+                    btn btn-primary
+                    w-75
+                    text-own-white
+                    rounded-pill
+                    py-3
+                    px-5
+                  "
+                >
+                  <i class="fa-solid fa-utensils align-top fs-5 me-3"></i
+                  >加入餐點
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-bright-green pb-md-5 border-0 text-dark-green">
+              <div
+                class="
+                  group-card-area
+                  card-body
+                  d-flex
+                  text-start
+                  text-md-start
+                  align-items-center
+                  justify-content-between
+                  flex-md-column
+                  position-relative
+                "
+              >
+                <div
+                  class="
+                    d-flex
+                    flex-md-column
+                    align-items-md-start
+                    ps-md-4 py-md-4
+                    align-items-center
+                    justify-content-start
+                    index-card-img-bright
+                  "
+                >
+                  <img
+                    class="
+                      img-fluid
+                      rounded-3
+                      w-30 w-md-75
+                      me-md-8
+                      h-25
+                      border border-card-green-100
+                      border-2
+                      ms-md-5
+                      mt-md-3
+                    "
+                    src="../../libs/img/recipe/水煮蛋.jpg"
+                    alt="蛤蠣湯.jpg"
+                  />
+                  <ul class="card-text p-0 ps-4  ms-md-15 pt-md-15 fs-6">
+                    <li><h5 class="card-title fs-md-5 m-0">水煮蛋</h5></li>
+                    <li>5分鐘</li>
+                    <li>食材：雞蛋</li>
+                    <li>醬料：無</li>
+                  </ul>
+                </div>
+                <button class="float-end btn d-md-none">
+                  <i class="fa-solid fa-utensils fs-5 text-primary"></i>
+                </button>
+                <button
+                  href="#"
+                  class="
+                    d-none d-md-block
+                    btn btn-primary
+                    w-75
+                    text-own-white
+                    rounded-pill
+                    py-3
+                    px-5
+                  "
+                >
+                  <i class="fa-solid fa-utensils align-top fs-5 me-3"></i
+                  >加入餐點
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-card-green-100 pb-md-5 border-0 text-dark-green">
+              <div
+                class="
+                  group-card-area
+                  card-body
+                  d-flex
+                  text-start
+                  text-md-start
+                  align-items-center
+                  justify-content-between
+                  flex-md-column
+                  position-relative
+                "
+              >
+                <div
+                  class="
+                    d-flex
+                    flex-md-column
+                    align-items-md-start
+                    ps-md-4 py-md-4
+                    align-items-center
+                    justify-content-start
+                    index-card-img
+                  "
+                >
+                  <img
+                    class="
+                      img-fluid
+                      rounded-3
+                      w-30 w-md-75
+                      me-md-8
+                      h-25
+                      border-0
+                      ms-md-5
+                      mt-md-3
+                    "
+                    src="../../libs/img/recipe/玉米筍.jpg"
+                    alt="蛤蠣湯.jpg"
+                  />
+                  <ul class="card-text ps-4 p-0 ms-md-15 pt-md-15 fs-6">
+                    <li><h5 class="card-title fs-md-5 m-0">玉米筍</h5></li>
+                    <li>10分鐘</li>
+                    <li>食材：玉米筍、蒜頭</li>
+                    <li>醬料：鹽</li>
+                  </ul>
+                </div>
+                <button class="float-end btn d-md-none">
+                  <i class="fa-solid fa-utensils fs-5 text-primary"></i>
+                </button>
+                <button
+                  href="#"
+                  class="
+                    d-none d-md-block
+                    btn btn-primary
+                    w-75
+                    text-own-white
+                    rounded-pill
+                    py-3
+                    px-5
+                  "
+                >
+                  <i class="fa-solid fa-utensils align-top fs-5 me-3"></i
+                  >加入餐點
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mt-md-20 mt-10 mb-10 mb-md-20">
+      <div class="container">
+        <div class="position-relative">
+          <h3
+            class="
+              fw-bold
+              rounded-pill
+              text-start
+              group-title
+              text-primary
+              position-relative
+              py-5
+              ps-8 ps-md-15
+            "
+          >
+            <span class="text-own-orange">簡單健康</span>推薦組合
           </h3>
           <button
             class="
@@ -574,10 +821,10 @@
                     alt="蛤蠣湯.jpg"
                   />
                   <ul class="card-text ps-4 ms-md-15 pt-md-15 fs-6">
-                    <li><h5 class="card-title fs-md-5 m-0">蛤蠣湯</h5></li>
-                    <li>5分鐘</li>
-                    <li>食材：</li>
-                    <li>醬料</li>
+                    <li><h5 class="card-title fs-md-5 m-0">地瓜飯</h5></li>
+                    <li>20分鐘</li>
+                    <li>食材：地瓜、米、水</li>
+                    <li>醬料：油</li>
                   </ul>
                 </div>
                 <button class="float-end btn d-md-none">
@@ -639,14 +886,14 @@
                       ms-md-5
                       mt-md-3
                     "
-                    src="../../libs/img/recipe/蛤蠣湯.jpg"
+                    src="../../libs/img/recipe/清蒸絲瓜.jpg"
                     alt="蛤蠣湯.jpg"
                   />
                   <ul class="card-text p-0 ps-4  ms-md-15 pt-md-15 fs-6">
-                    <li><h5 class="card-title fs-md-5 m-0">蛤蠣湯</h5></li>
-                    <li>5分鐘</li>
-                    <li>食材：</li>
-                    <li>醬料</li>
+                    <li><h5 class="card-title fs-md-5 m-0">清蒸絲瓜</h5></li>
+                    <li>20分鐘</li>
+                    <li>食材：絲瓜、薑</li>
+                    <li>醬料：鹽</li>
                   </ul>
                 </div>
                 <button class="float-end btn d-md-none">
@@ -707,261 +954,14 @@
                       ms-md-5
                       mt-md-3
                     "
-                    src="../../libs/img/recipe/蛤蠣湯.jpg"
+                    src="../../libs/img/recipe/鮭魚.jpg"
                     alt="蛤蠣湯.jpg"
                   />
                   <ul class="card-text ps-4 p-0 ms-md-15 pt-md-15 fs-6">
-                    <li><h5 class="card-title fs-md-5 m-0">蛤蠣湯</h5></li>
-                    <li>5分鐘</li>
-                    <li>食材：</li>
-                    <li>醬料</li>
-                  </ul>
-                </div>
-                <button class="float-end btn d-md-none">
-                  <i class="fa-solid fa-utensils fs-5 text-primary"></i>
-                </button>
-                <button
-                  href="#"
-                  class="
-                    d-none d-md-block
-                    btn btn-primary
-                    w-75
-                    text-own-white
-                    rounded-pill
-                    py-3
-                    px-5
-                  "
-                >
-                  <i class="fa-solid fa-utensils align-top fs-5 me-3"></i
-                  >加入餐點
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="mt-md-20 mt-10">
-      <div class="container">
-        <div class="position-relative">
-          <h3
-            class="
-              fw-bold
-              rounded-pill
-              text-start
-              group-title
-              text-primary
-              position-relative
-              py-5
-              ps-8 ps-md-15
-            "
-          >
-            <span class="text-own-orange">家常菜</span>推薦組合
-          </h3>
-          <button
-            class="
-              btn btn-primary
-              text-own-white
-              py-3
-              py-md-4
-              px-md-10 px-7
-              rounded-pill
-              position-absolute
-              bottom-r60
-              end-5 end-md-15
-              w-md-25
-              fs-5
-            "
-          >
-            <i class="fa-solid fa-utensils fs-5 me-2"></i>
-            組合加入餐點
-          </button>
-        </div>
-      </div>
-      <div class="container mt-20">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card bg-card-green-100 pb-md-5 border-0 text-dark-green">
-              <div
-                class="
-                  group-card-area
-                  card-body
-                  d-flex
-                  text-start
-                  text-md-start
-                  align-items-center
-                  justify-content-between
-                  flex-md-column
-                  position-relative
-                "
-              >
-                <div
-                  class="
-                    d-flex
-                    flex-md-column
-                    align-items-md-start
-                    ps-md-4 py-md-4
-                    align-items-center
-                    justify-content-start
-                    index-card-img
-                  "
-                >
-                  <img
-                    class="
-                      img-fluid
-                      rounded-3
-                      w-30 w-md-75
-                      me-md-8
-                      h-25
-                      border-0
-                      ms-md-5
-                      mt-md-3
-                    "
-                    src="../../libs/img/recipe/蛤蠣湯.jpg"
-                    alt="蛤蠣湯.jpg"
-                  />
-                  <ul class="card-text ps-4 ms-md-15 pt-md-15 fs-6">
-                    <li><h5 class="card-title fs-md-5 m-0">蛤蠣湯</h5></li>
-                    <li>5分鐘</li>
-                    <li>食材：</li>
-                    <li>醬料</li>
-                  </ul>
-                </div>
-                <button class="float-end btn d-md-none">
-                  <i class="fa-solid fa-utensils fs-5 text-primary"></i>
-                </button>
-                <button
-                  href="#"
-                  class="
-                    d-none d-md-block
-                    btn btn-primary
-                    w-75
-                    text-own-white
-                    rounded-pill
-                    py-3
-                    px-5
-                  "
-                >
-                  <i class="fa-solid fa-utensils align-top fs-5 me-3"></i
-                  >加入餐點
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card bg-bright-green pb-md-5 border-0 text-dark-green">
-              <div
-                class="
-                  group-card-area
-                  card-body
-                  d-flex
-                  text-start
-                  text-md-start
-                  align-items-center
-                  justify-content-between
-                  flex-md-column
-                  position-relative
-                "
-              >
-                <div
-                  class="
-                    d-flex
-                    flex-md-column
-                    align-items-md-start
-                    ps-md-4 py-md-4
-                    align-items-center
-                    justify-content-start
-                    index-card-img-bright
-                  "
-                >
-                  <img
-                    class="
-                      img-fluid
-                      rounded-3
-                      w-30 w-md-75
-                      me-md-8
-                      h-25
-                      border border-card-green-100
-                      border-2
-                      ms-md-5
-                      mt-md-3
-                    "
-                    src="../../libs/img/recipe/蛤蠣湯.jpg"
-                    alt="蛤蠣湯.jpg"
-                  />
-                  <ul class="card-text p-0 ps-4  ms-md-15 pt-md-15 fs-6">
-                    <li><h5 class="card-title fs-md-5 m-0">蛤蠣湯</h5></li>
-                    <li>5分鐘</li>
-                    <li>食材：</li>
-                    <li>醬料</li>
-                  </ul>
-                </div>
-                <button class="float-end btn d-md-none">
-                  <i class="fa-solid fa-utensils fs-5 text-primary"></i>
-                </button>
-                <button
-                  href="#"
-                  class="
-                    d-none d-md-block
-                    btn btn-primary
-                    w-75
-                    text-own-white
-                    rounded-pill
-                    py-3
-                    px-5
-                  "
-                >
-                  <i class="fa-solid fa-utensils align-top fs-5 me-3"></i
-                  >加入餐點
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card bg-card-green-100 pb-md-5 border-0 text-dark-green">
-              <div
-                class="
-                  group-card-area
-                  card-body
-                  d-flex
-                  text-start
-                  text-md-start
-                  align-items-center
-                  justify-content-between
-                  flex-md-column
-                  position-relative
-                "
-              >
-                <div
-                  class="
-                    d-flex
-                    flex-md-column
-                    align-items-md-start
-                    ps-md-4 py-md-4
-                    align-items-center
-                    justify-content-start
-                    index-card-img
-                  "
-                >
-                  <img
-                    class="
-                      img-fluid
-                      rounded-3
-                      w-30 w-md-75
-                      me-md-8
-                      h-25
-                      border-0
-                      ms-md-5
-                      mt-md-3
-                    "
-                    src="../../libs/img/recipe/蛤蠣湯.jpg"
-                    alt="蛤蠣湯.jpg"
-                  />
-                  <ul class="card-text ps-4 p-0 ms-md-15 pt-md-15 fs-6">
-                    <li><h5 class="card-title fs-md-5 m-0">蛤蠣湯</h5></li>
-                    <li>5分鐘</li>
-                    <li>食材：</li>
-                    <li>醬料</li>
+                    <li><h5 class="card-title fs-md-5 m-0">香煎鮭魚</h5></li>
+                    <li>35分鐘</li>
+                    <li>食材：鮭魚、蒜頭</li>
+                    <li>醬料：鹽、迷迭香或黑胡椒</li>
                   </ul>
                 </div>
                 <button class="float-end btn d-md-none">
