@@ -17,3 +17,10 @@
   float: right;
   margin-top: 15px;
 }
+
+.form-select {
+  color: $primary;
+  background-image: url('./libs/img/icon/caret-down-solid.svg');
+  background-size: 4%;
+  background-position: 90% 50%;
+}
