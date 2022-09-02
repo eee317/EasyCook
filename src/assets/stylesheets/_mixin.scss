@@ -1,10 +1,10 @@
 @mixin sm-size {
-  @media (min-width: 576px) {
+  @media (min-width: 540px) {
     @content;
   }
 }
 @mixin md-size {
-  @media (min-width:768px) {
+  @media (min-width:720px) {
     @content;
   }
 }
@@ -17,10 +17,23 @@
   content:'';
   top:76px;
   right: 53px;
+  left:90px;
+  bottom: 211px;
   position: absolute;
   background: $bg-color;
   width: 65%;
-  height: 48%;
   z-index: 0;
   border-radius: 10px;
+}
+@mixin index-bg-section($top, $bg-w-size) {
+  position: absolute;
+  top:$top;
+  left:0;
+  bottom:-156px;
+  right: 0;
+  content:'';
+  background: url('./../libs/img/bgImg/index-section-bg.png');
+  background-size: 100% $bg-w-size;
+  background-repeat: no-repeat;
+  z-index: -2;
 }

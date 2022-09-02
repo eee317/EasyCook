@@ -60,16 +60,19 @@
               </ul>
             </div>
           </div>
-          <input
-            type="button"
-            value="搜尋"
-            class="mt-6 fs-5 px-7 btn btn-primary rounded-pill text-own-white"
-          />
+          <router-link to="searchResults">
+            <input
+              type="button"
+              value="搜尋"
+              class="mt-6 fs-5 px-7 btn btn-primary rounded-pill text-own-white"
+            />
+          </router-link>
         </div>
       </div>
     </div>
   </div>
-  <main>
+  <main class="index-bg-section position-relative">
+    <!-- 夏日推薦 -->
     <section class="index-bg mt-10">
       <div class="container">
         <div class="row justify-content-md-center">
@@ -103,50 +106,50 @@
               </p>
               <ul class="w-100 m-0 p-3 bg-box">
                 <li class="mb-5 d-md-flex">
-                  <div
-                    class="
-                      card
-                      w-md-75
-                      rounded-2
-                      px-3
-                      border-own-yellow
-                      bg-own-skin
-                    "
-                  >
-                    <div class="d-flex align-items-center py-lg-2">
-                      <img
-                        class="
-                          img-fluid
-                          w-25 w-lg-18
-                          rounded-2
-                          border border-own-yellow
-                        "
-                        src="../../libs/img/recipe/百香果汁.jpg"
-                        alt="百香果汁.jpg"
-                      />
-                      <div class="card-body text-start text-own-brown">
-                        <h6 class="card-title">百香果汁</h6>
-                        <p class="card-text m-0">5分鐘</p>
-                        <p class="card-text m-0">食材：百香果、水</p>
-                        <p class="card-text m-0">醬料：蜂蜜</p>
+                    <div
+                      class="
+                        card
+                        w-md-75
+                        rounded-2
+                        px-3
+                        border-own-yellow
+                        bg-own-skin
+                      "
+                    >
+                      <div class="d-flex align-items-center py-lg-2">
+                        <img
+                          class="
+                            img-fluid
+                            w-25 w-lg-18
+                            rounded-2
+                            border border-own-yellow
+                          "
+                          src="../../libs/img/recipe/百香果汁.jpg"
+                          alt="百香果汁.jpg"
+                        />
+                        <div class="card-body text-start text-own-brown">
+                          <h6 class="card-title">百香果汁</h6>
+                          <p class="card-text m-0">5分鐘</p>
+                          <p class="card-text m-0">食材：百香果、水</p>
+                          <p class="card-text m-0">醬料：蜂蜜</p>
+                        </div>
+                        <button class="btn text-primary d-md-none">
+                          <i class="fa-solid fa-utensils fs-5"></i>
+                        </button>
                       </div>
-                      <button class="btn text-primary d-md-none">
-                        <i class="fa-solid fa-utensils fs-5"></i>
-                      </button>
                     </div>
-                  </div>
-                  <button
-                    class="
-                      btn btn-primary
-                      ms-5
-                      text-own-white
-                      w-25
-                      d-md-block d-none
-                    "
-                  >
-                    <i class="fa-solid fa-utensils fs-5 me-2"></i>
-                    加入餐點
-                  </button>
+                    <button
+                      class="
+                        btn btn-primary
+                        ms-5
+                        text-own-white
+                        w-25
+                        d-md-block d-none
+                      "
+                    >
+                      <i class="fa-solid fa-utensils fs-5 me-2"></i>
+                      加入餐點
+                    </button>
                 </li>
                 <li class="mb-5 d-md-flex">
                   <div
@@ -275,7 +278,7 @@
               position-absolute
               bottom-r60
               end-5 end-md-15
-              w-md-25
+              w-md-40 w-lg-30
               fs-5
             "
           >
@@ -306,7 +309,7 @@
                     d-flex
                     flex-md-column
                     align-items-md-start
-                    ps-md-4 py-md-4
+                    ps-lg-4 py-md-4
                     align-items-center
                     justify-content-start
                     index-card-img
@@ -317,16 +320,17 @@
                       img-fluid
                       rounded-3
                       w-30 w-md-75
-                      me-md-8
                       h-25
                       border-0
-                      ms-md-5
+                      me-lg-8
+                      ms-lg-5
                       mt-md-3
+                      m-md-auto
                     "
                     src="../../libs/img/recipe/蛤蠣湯.jpg"
                     alt="蛤蠣湯.jpg"
                   />
-                  <ul class="card-text ps-4 ms-md-15 pt-md-15 fs-6">
+                  <ul class="card-text ps-4 ms-lg-15 pt-lg-15 pt-md-5">
                     <li><h5 class="card-title fs-md-5 m-0">蛤蠣湯</h5></li>
                     <li>15分鐘</li>
                     <li>食材：蛤蠣、薑片</li>
@@ -341,7 +345,7 @@
                   class="
                     d-none d-md-block
                     btn btn-primary
-                    w-75
+                    w-lg-75 w-100
                     text-own-white
                     rounded-pill
                     py-3
@@ -385,17 +389,17 @@
                       img-fluid
                       rounded-3
                       w-30 w-md-75
-                      me-md-8
                       h-25
-                      border border-card-green-100
-                      border-2
-                      ms-md-5
+                      border border-card-green-100 border-2
+                      me-lg-8
+                      ms-lg-5
                       mt-md-3
+                      m-md-auto
                     "
                     src="../../libs/img/recipe/豬肉蔥卷.jpg"
                     alt="蛤蠣湯.jpg"
                   />
-                  <ul class="card-text p-0 ps-4  ms-md-15 pt-md-15 fs-6">
+                  <ul class="card-text ps-4 ms-lg-15 pt-lg-15 pt-md-5">
                     <li><h5 class="card-title fs-md-5 m-0">豬肉蔥捲</h5></li>
                     <li>15分鐘</li>
                     <li>食材：火鍋五花肉片</li>
@@ -410,7 +414,7 @@
                   class="
                     d-none d-md-block
                     btn btn-primary
-                    w-75
+                    w-lg-75 w-100
                     text-own-white
                     rounded-pill
                     py-3
@@ -454,16 +458,17 @@
                       img-fluid
                       rounded-3
                       w-30 w-md-75
-                      me-md-8
                       h-25
                       border-0
-                      ms-md-5
+                      me-lg-8
+                      ms-lg-5
                       mt-md-3
+                      m-md-auto
                     "
                     src="../../libs/img/recipe/燙青菜.jpg"
                     alt="蛤蠣湯.jpg"
                   />
-                  <ul class="card-text ps-4 p-0 ms-md-15 pt-md-15 fs-6">
+                  <ul class="card-text ps-4 ms-lg-15 pt-lg-15 pt-md-5">
                     <li><h5 class="card-title fs-md-5 m-0">燙青菜</h5></li>
                     <li>10分鐘</li>
                     <li>食材：葉菜類蔬菜、蒜頭</li>
@@ -478,7 +483,7 @@
                   class="
                     d-none d-md-block
                     btn btn-primary
-                    w-75
+                    w-lg-75 w-100
                     text-own-white
                     rounded-pill
                     py-3
@@ -522,7 +527,7 @@
               position-absolute
               bottom-r60
               end-5 end-md-15
-              w-md-25
+              w-md-40 w-lg-30
               fs-5
             "
           >
@@ -564,16 +569,17 @@
                       img-fluid
                       rounded-3
                       w-30 w-md-75
-                      me-md-8
                       h-25
                       border-0
-                      ms-md-5
+                      me-lg-8
+                      ms-lg-5
                       mt-md-3
+                      m-md-auto
                     "
                     src="../../libs/img/recipe/涼拌豆腐.jpg"
                     alt="蛤蠣湯.jpg"
                   />
-                  <ul class="card-text ps-4 ms-md-15 pt-md-15 fs-6">
+                  <ul class="card-text ps-4 ms-lg-15 pt-lg-15 pt-md-5">
                     <li><h5 class="card-title fs-md-5 m-0">涼拌豆腐</h5></li>
                     <li>5分鐘</li>
                     <li>食材：中華豆腐、蔥</li>
@@ -588,7 +594,7 @@
                   class="
                     d-none d-md-block
                     btn btn-primary
-                    w-75
+                    w-lg-75 w-100
                     text-own-white
                     rounded-pill
                     py-3
@@ -632,17 +638,17 @@
                       img-fluid
                       rounded-3
                       w-30 w-md-75
-                      me-md-8
                       h-25
-                      border border-card-green-100
-                      border-2
-                      ms-md-5
+                      me-lg-8
+                      ms-lg-5
                       mt-md-3
+                      m-md-auto
+                      border border-card-green-100 border-2
                     "
                     src="../../libs/img/recipe/水煮蛋.jpg"
                     alt="蛤蠣湯.jpg"
                   />
-                  <ul class="card-text p-0 ps-4  ms-md-15 pt-md-15 fs-6">
+                  <ul class="card-text ps-4 ms-lg-15 pt-lg-15 pt-md-5">
                     <li><h5 class="card-title fs-md-5 m-0">水煮蛋</h5></li>
                     <li>5分鐘</li>
                     <li>食材：雞蛋</li>
@@ -657,7 +663,7 @@
                   class="
                     d-none d-md-block
                     btn btn-primary
-                    w-75
+                    w-lg-75 w-100
                     text-own-white
                     rounded-pill
                     py-3
@@ -701,16 +707,17 @@
                       img-fluid
                       rounded-3
                       w-30 w-md-75
-                      me-md-8
                       h-25
                       border-0
-                      ms-md-5
+                      me-lg-8
+                      ms-lg-5
                       mt-md-3
+                      m-md-auto
                     "
                     src="../../libs/img/recipe/玉米筍.jpg"
                     alt="蛤蠣湯.jpg"
                   />
-                  <ul class="card-text ps-4 p-0 ms-md-15 pt-md-15 fs-6">
+                  <ul class="card-text ps-4 ms-lg-15 pt-lg-15 pt-md-5">
                     <li><h5 class="card-title fs-md-5 m-0">玉米筍</h5></li>
                     <li>10分鐘</li>
                     <li>食材：玉米筍、蒜頭</li>
@@ -725,7 +732,7 @@
                   class="
                     d-none d-md-block
                     btn btn-primary
-                    w-75
+                    w-lg-75 w-100
                     text-own-white
                     rounded-pill
                     py-3
@@ -769,7 +776,7 @@
               position-absolute
               bottom-r60
               end-5 end-md-15
-              w-md-25
+              w-md-40 w-lg-30
               fs-5
             "
           >
@@ -811,16 +818,17 @@
                       img-fluid
                       rounded-3
                       w-30 w-md-75
-                      me-md-8
                       h-25
                       border-0
-                      ms-md-5
+                      me-lg-8
+                      ms-lg-5
                       mt-md-3
+                      m-md-auto
                     "
-                    src="../../libs/img/recipe/蛤蠣湯.jpg"
+                    src="../../libs/img/recipe/地瓜飯.jpg"
                     alt="蛤蠣湯.jpg"
                   />
-                  <ul class="card-text ps-4 ms-md-15 pt-md-15 fs-6">
+                  <ul class="card-text ps-4 ms-lg-15 pt-lg-15 pt-md-5">
                     <li><h5 class="card-title fs-md-5 m-0">地瓜飯</h5></li>
                     <li>20分鐘</li>
                     <li>食材：地瓜、米、水</li>
@@ -835,7 +843,7 @@
                   class="
                     d-none d-md-block
                     btn btn-primary
-                    w-75
+                    w-lg-75 w-100
                     text-own-white
                     rounded-pill
                     py-3
@@ -879,17 +887,17 @@
                       img-fluid
                       rounded-3
                       w-30 w-md-75
-                      me-md-8
                       h-25
-                      border border-card-green-100
-                      border-2
-                      ms-md-5
+                      border border-card-green-100 border-2
+                      me-lg-8
+                      ms-lg-5
                       mt-md-3
+                      m-md-auto
                     "
                     src="../../libs/img/recipe/清蒸絲瓜.jpg"
                     alt="蛤蠣湯.jpg"
                   />
-                  <ul class="card-text p-0 ps-4  ms-md-15 pt-md-15 fs-6">
+                  <ul class="card-text ps-4 ms-lg-15 pt-lg-15 pt-md-5">
                     <li><h5 class="card-title fs-md-5 m-0">清蒸絲瓜</h5></li>
                     <li>20分鐘</li>
                     <li>食材：絲瓜、薑</li>
@@ -904,7 +912,7 @@
                   class="
                     d-none d-md-block
                     btn btn-primary
-                    w-75
+                    w-lg-75 w-100
                     text-own-white
                     rounded-pill
                     py-3
@@ -948,16 +956,17 @@
                       img-fluid
                       rounded-3
                       w-30 w-md-75
-                      me-md-8
                       h-25
                       border-0
-                      ms-md-5
+                      me-lg-8
+                      ms-lg-5
                       mt-md-3
+                      m-md-auto
                     "
                     src="../../libs/img/recipe/鮭魚.jpg"
                     alt="蛤蠣湯.jpg"
                   />
-                  <ul class="card-text ps-4 p-0 ms-md-15 pt-md-15 fs-6">
+                  <ul class="card-text ps-4 p-0 ms-lg-15 pt-md-15 ">
                     <li><h5 class="card-title fs-md-5 m-0">香煎鮭魚</h5></li>
                     <li>35分鐘</li>
                     <li>食材：鮭魚、蒜頭</li>
@@ -972,7 +981,7 @@
                   class="
                     d-none d-md-block
                     btn btn-primary
-                    w-75
+                    w-lg-75 w-100
                     text-own-white
                     rounded-pill
                     py-3

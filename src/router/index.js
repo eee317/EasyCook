@@ -8,6 +8,10 @@ const routes = [
       {
         path: '',
         component: () => import('../views/front/IndexPage.vue')
+      },
+      {
+        path: '/searchResults',
+        component: () => import('../views/front/SearchResults.vue')
       }
     ]
   },
