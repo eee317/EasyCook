@@ -1,0 +1,12 @@
+@include lg-size {
+  .line-before::before{
+    position: absolute;
+    top:10%;
+    left: 37%;
+    content:'';
+    border-radius: 10px;
+    height: 80%;
+    width: 3px;
+    background: $card-img-green-200;
+  }
+}

@@ -1,0 +1,24 @@
+.tl-radius {
+  border-radius: 35px 0 0 0;
+}
+.tr-radius {
+  border-radius: 0 35px 0 0;
+}
+.br-radius {
+  border-radius: 0 0 35px 0;
+}
+.bl-radius {
+  border-radius: 0 0 0 35px;
+}
+@include lg-size {
+  .radius-lg-0 {
+    border-radius: 0;
+  }
+  .radius-lg-bl-30{
+    border-bottom-left-radius: 35px;
+  }
+  .radius-lg-tr-30{
+    border-top-right-radius: 35px;
+  }
+
+}
