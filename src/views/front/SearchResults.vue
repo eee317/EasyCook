@@ -7,7 +7,7 @@
         <a href="#" class="text-reset text-decoration-none">
           <div class="card border-0 h-100 bg-card-green-100 p-4 py-lg-6 py-lg-7" style="">
             <div class="row g-0 flex-nowrap align-items-center align-items-lg-start">
-              <div class="col-md-4 col-3 line-before">
+              <div class="col-md-4 col-3 line-lg-before">
                 <div class=""></div>
                   <img
                       class="w-100
@@ -26,7 +26,7 @@
               <div class="col-md-8 col-9">
                 <div class="card-body ms-lg-10 text-start d-flex align-items-center p-0">
                   <div class="card-body p-md-0 text-start text-dark-green ">
-                        <h6 class="card-title">西西里檸檬氣泡飲</h6>
+                        <h6 class="card-title fs-lg-5">西西里檸檬氣泡飲</h6>
                         <p class="card-text m-0">5分鐘</p>
                         <p class="card-text m-0">食材：雪碧、咖啡、檸檬</p>
                       </div>

@@ -1,8 +1,8 @@
 @include lg-size {
-  .line-before::before{
+  .line-lg-before::before{
     position: absolute;
     top:10%;
-    left: 37%;
+    left: 36%;
     content:'';
     border-radius: 10px;
     height: 80%;
