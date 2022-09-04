@@ -2,11 +2,12 @@
   .line-lg-before::before{
     position: absolute;
     top:10%;
-    left: 36%;
+    left: 35%;
     content:'';
     border-radius: 10px;
     height: 80%;
-    width: 3px;
-    background: $card-img-green-200;
+    width: 4px;
+    background: $bg-green;
+    //background: $card-img-green-200;
   }
 }
