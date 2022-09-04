@@ -4,7 +4,7 @@
     <div class="row">
       <h2 class="text-dark-green text-start mb-6">共 {{recipes.length}} 道食譜</h2>
       <div class="col-md-6 mb-5" v-for="recipe in recipes" :key="recipe.id">
-        <a href="#" class="text-reset text-decoration-none">
+        <router-link to="recipesContent" class="text-reset text-decoration-none">
           <div class="card border-0 h-100 bg-bright-green p-4 py-lg-6 py-lg-7" style="">
             <div class="row g-0 flex-nowrap align-items-center align-items-lg-start">
               <div class="col-md-4 col-3 line-lg-before">
@@ -39,7 +39,7 @@
               </div>
             </div>
           </div>
-        </a>
+        </router-link>
       </div>
     </div>
   </div>
