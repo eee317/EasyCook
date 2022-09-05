@@ -51,9 +51,24 @@
         </div>
       </div>
     </div>
-    <div class="row justify-content-center">
-      <div class="col-lg-8">
+  </div>
+  <div class="recipesContent-bg">
+    <div class="container">
+      <div class="row justify-content-center mt-20">
+      <div class="col-lg-11">
+        <div class="p-7 text-own-white position-relative">
+          <h2 class="d-block d-md-inline-block py-md-5 pe-md-3 drop-shadow">炒玉米筍</h2>
+          <h5 class="d-inline-block drop-shadow">的小筆記</h5>
+          <div class="drop-shadow mb-10 mt-5 mt-md-0">
+            <p class="fw-bold">也可以嘗試把蒜頭換成奶油，煎起來的玉米筍別有風味！</p>
+          </div>
+          <button class="position-absolute bottom-0 start-50 translate-middle-x
+          d-inline-block text-center mt-3 mt-lg-0 py-2 px-6 btn btn-primary text-own-white rounded-pill align-middle fs-6">
+            <i class="fa-solid fa-utensils fs-6 me-3"></i>加入餐點
+          </button>
+        </div>
       </div>
+    </div>
     </div>
   </div>
 </template>
