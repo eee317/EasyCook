@@ -2,17 +2,57 @@
   <searchform></searchform>
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-md-8">
-        <div class="border-2 border-card-img-green-200 border-top border-bottom py-6">
+      <div class="col-lg-8">
+        <div class="border-2 border-card-img-green-200 border-top border-bottom py-6 d-lg-flex justify-content-lg-between align-items-lg-center">
           <h1 class="text-center text-dark-green m-0">炒玉米筍</h1>
-          <button class="d-inline-block text-center mt-3 py-2 px-6 btn btn-primary text-own-white rounded-pill align-middle fs-6">
+          <button class="d-inline-block text-center mt-3 mt-lg-0 py-2 px-6 btn btn-primary text-own-white rounded-pill align-middle fs-6">
             <i class="fa-solid fa-utensils fs-6 me-3"></i>加入餐點
           </button>
         </div>
-        <div class="mt-4 mb-2 d-inline-block float-start">
+        <div class="mt-5 mb-4 d-flex">
           <span class="badge rounded-pill bg-own-bright-blue text-start px-4 py-3 me-3 fs-6"><i class="fa-solid fa-clock me-2"></i>可放置</span>
           <span class="badge rounded-pill bg-own-orange text-start px-4 py-3 fs-6"><i class="fa-solid fa-carrot me-2"></i>素</span>
         </div>
+        <div>
+          <div class="recipesContent-img d-none d-lg-block" style="background-image:url('https://raw.githubusercontent.com/eee317/EasyCook/main/src/libs/img/recipe/%E7%85%8E%E8%8D%B7%E5%8C%85%E8%9B%8B.jpg')"></div>
+          <img class="img-fluid rounded-2 border border-2 border-card-img-green-200 float-lg-start d-lg-none"
+          src="../../libs/img/recipe/西西里檸檬氣泡飲.jpg"
+                        alt="西西里檸檬氣泡飲.jpg">
+        </div>
+        <div class="text-start mt-lg-20 mt-10">
+          <ul class="text-dark-green recipecContent-after">
+            <li class="d-flex align-items-center mb-4 mb-lg-10">
+              <h2 class="m-0 pe-4 pe-lg-10">人數</h2>
+              <p class="flex-grow-1 fs-6 fs-lg-5 border-bottom border-2 border-card-img-green-200 m-0 me-3 py-3">1 / 人</p>
+            </li>
+            <li class="d-flex align-items-center mb-4 mb-lg-10">
+              <h2 class="m-0 pe-4 pe-lg-10">食材</h2>
+              <p class="flex-grow-1 fs-6 fs-lg-5 border-bottom border-2 border-card-img-green-200 m-0 me-3 py-3">玉米筍 0.5盒</p>
+            </li>
+            <li class="d-flex align-items-center mb-4 mb-lg-10">
+              <h2 class="m-0 pe-4 pe-lg-10">醬料</h2>
+              <p class="flex-grow-1 fs-6 fs-lg-5 border-bottom border-2 border-card-img-green-200 m-0 me-3 py-3">鹽</p>
+            </li>
+            <li class="d-flex align-items-center">
+              <h2 class="m-0 pe-4 pe-lg-10">設備</h2>
+              <p class="flex-grow-1 fs-6 fs-lg-5 border-bottom border-2 border-card-img-green-200 m-0 me-3 py-3">無</p>
+            </li>
+          </ul>
+        </div>
+        <div class="mt-15">
+          <ul class="text-dark-green">
+            <li class="d-flex align-items-start mb-7">
+              <span class="py-3 py-lg-5 px-7 px-lg-10 bg-card-green-100 m-0 fs-2 recipecContent-step me-4">1</span><p class="m-0 py-5 py-lg-8 px-7 bg-bright-green flex-grow-1 text-start fs-6 recipecContent-text">將玉米筍切半、蒜頭去殼</p>
+            </li>
+            <li class="d-flex align-items-start ">
+              <span class="py-3 py-lg-5 px-7 px-lg-10 bg-card-green-100 m-0 fs-2 recipecContent-step me-4">1</span><p class="m-0 py-5 py-lg-8 px-7 bg-bright-green flex-grow-1 text-start fs-6 recipecContent-text">將玉米筍切半、蒜頭去殼</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
       </div>
     </div>
   </div>
