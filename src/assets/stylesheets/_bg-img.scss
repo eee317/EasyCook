@@ -1,0 +1,36 @@
+.searchForm-bg-big {
+  position: absolute;
+  background-image: url('./../libs/img/bgImg/rearch-bg-ellipse-big.png');
+  width: 116px;
+  height: 116px;
+  bottom:-30%;
+  right: -5%;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.indexForm-bg-big {
+  position: absolute;
+  background-image: url('./../libs/img/bgImg/rearch-bg-ellipse-big.png');
+  width: 116px;
+  height: 116px;
+  bottom:-5%;
+  right: 5%;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+@include lg-size {
+  .searchForm-bg {
+    background-image: url('./../libs/img/bgImg/rearch-bg-ellipse-tiny.png'),url('./../libs/img/bgImg/rearch-bg-ellipse-tinytiny.png');
+    background-size: 40px, 20px;
+    background-position: 90% 80%,10% 30%;
+    background-repeat: no-repeat;
+  }
+  .searchForm-bg-big {
+    bottom:-40%;
+    right: 25%;
+  }
+  .indexForm-bg-big {
+    right: 25%;
+  }
+}

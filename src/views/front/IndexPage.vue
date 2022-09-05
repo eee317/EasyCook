@@ -7,7 +7,8 @@
       alt="輕鬆煮廚logo.img"
     />
   </div>
-  <div class="container">
+  <div class="container searchForm-bg position-relative">
+    <div class="indexForm-bg-big"></div>
     <div class="row mt-10 justify-content-center">
       <div class="col-md-4">
         <div class="d-flex flex-column align-items-center">

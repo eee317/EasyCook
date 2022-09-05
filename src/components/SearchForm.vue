@@ -1,6 +1,7 @@
 <template>
-  <div class="container">
-    <div class="row mt-10 justify-content-center">
+  <div class="container searchForm-bg position-relative">
+    <div class="searchForm-bg-big"></div>
+    <div class="row my-md-20 my-15 justify-content-center">
       <div class="col-md-6 col-lg-4">
         <div>
           <input
