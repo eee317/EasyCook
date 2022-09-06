@@ -71,12 +71,21 @@
     </div>
     </div>
   </div>
+  <div class="container my-10">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <recipesswiper></recipesswiper>
+      </div>
+    </div>
+  </div>
 </template>
 <script>
 import searchform from '@/components/SearchForm.vue'
+import recipesswiper from '@/components/recipesSwiper.vue'
 export default {
   components: {
-    searchform
+    searchform,
+    recipesswiper
   }
 }
 </script>
