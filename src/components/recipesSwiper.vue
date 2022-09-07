@@ -1,6 +1,9 @@
 <template>
   <swiper
-    :slides-per-view="2"
+    :breakpoints="{
+      768: {slidesPerView: 2}
+    }"
+    :slides-per-view="1"
     :pagination="{
       type: '',
     }"
