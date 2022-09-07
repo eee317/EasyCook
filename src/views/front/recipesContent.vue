@@ -22,6 +22,10 @@
         <div class="text-start mt-lg-20 mt-10">
           <ul class="text-dark-green recipecContent-after">
             <li class="d-flex align-items-center mb-4 mb-lg-10">
+              <h2 class="m-0 pe-4 pe-lg-10">時間</h2>
+              <p class="flex-grow-1 fs-6 fs-lg-5 border-bottom border-2 border-card-img-green-200 m-0 me-3 py-3">10 分鐘</p>
+            </li>
+            <li class="d-flex align-items-center mb-4 mb-lg-10">
               <h2 class="m-0 pe-4 pe-lg-10">人數</h2>
               <p class="flex-grow-1 fs-6 fs-lg-5 border-bottom border-2 border-card-img-green-200 m-0 me-3 py-3">1 / 人</p>
             </li>
@@ -44,15 +48,27 @@
             <li class="d-flex align-items-start mb-7">
               <span class="py-3 py-lg-5 px-7 px-lg-10 bg-card-green-100 m-0 fs-2 recipecContent-step me-4">1</span><p class="m-0 py-5 py-lg-8 px-7 bg-bright-green flex-grow-1 text-start fs-6 recipecContent-text">將玉米筍切半、蒜頭去殼</p>
             </li>
-            <li class="d-flex align-items-start ">
+            <li class="d-flex align-items-start mb-7">
               <span class="py-3 py-lg-5 px-7 px-lg-10 bg-card-green-100 m-0 fs-2 recipecContent-step me-4">2</span><p class="m-0 py-5 py-lg-8 px-7 bg-bright-green flex-grow-1 text-start fs-6 recipecContent-text">平底鍋，大火熱油 2 分鐘</p>
+            </li>
+            <li class="d-flex align-items-start mb-7">
+              <span class="py-3 py-lg-5 px-7 px-lg-10 bg-card-green-100 m-0 fs-2 recipecContent-step me-4">3</span><p class="m-0 py-5 py-lg-8 px-7 bg-bright-green flex-grow-1 text-start fs-6 recipecContent-text">加入蒜頭爆香 1 分鐘</p>
+            </li>
+            <li class="d-flex align-items-start mb-7">
+              <span class="py-3 py-lg-5 px-7 px-lg-10 bg-card-green-100 m-0 fs-2 recipecContent-step me-4">4</span><p class="m-0 py-5 py-lg-8 px-7 bg-bright-green flex-grow-1 text-start fs-6 recipecContent-text">轉小火，加入玉米筍，拌炒一下後蓋鍋(3分鐘)</p>
+            </li>
+            <li class="d-flex align-items-start mb-7">
+              <span class="py-3 py-lg-5 px-7 px-lg-10 bg-card-green-100 m-0 fs-2 recipecContent-step me-4">5</span><p class="m-0 py-5 py-lg-8 px-7 bg-bright-green flex-grow-1 text-start fs-6 recipecContent-text">加入一湯匙的水、一些鹽</p>
+            </li>
+            <li class="d-flex align-items-start mb-7">
+              <span class="py-3 py-lg-5 px-7 px-lg-10 bg-card-green-100 m-0 fs-2 recipecContent-step me-4">6</span><p class="m-0 py-5 py-lg-8 px-7 bg-bright-green flex-grow-1 text-start fs-6 recipecContent-text">拌炒後蓋鍋 2 分鐘，即可起鍋</p>
             </li>
           </ul>
         </div>
       </div>
     </div>
   </div>
-  <div class="recipesContent-bg">
+  <div class="recipesContent-bg mb-20">
     <div class="container">
       <div class="row justify-content-center mt-20">
       <div class="col-lg-11">
@@ -61,6 +77,7 @@
           <h5 class="d-inline-block drop-shadow">的小筆記</h5>
           <div class="drop-shadow mb-10 mt-5 mt-md-0">
             <p class="fw-bold">也可以嘗試把蒜頭換成奶油，煎起來的玉米筍別有風味！</p>
+            <p class="fw-bold">第5步驟加水是為了避免玉米筍煎一煎後太乾了</p>
           </div>
           <button class="position-absolute bottom-0 start-50 translate-middle-x
           d-inline-block text-center mt-3 mt-lg-0 py-2 px-6 btn btn-primary text-own-white rounded-pill align-middle fs-6">
@@ -71,9 +88,10 @@
     </div>
     </div>
   </div>
-  <div class="container my-10">
+  <div class="container my-10 pt-lg-10 pt-md-5 pb-10">
     <div class="row justify-content-center">
       <div class="col-lg-8">
+      <h2 class="text-dark-green text-start">你也許會喜歡</h2>
         <recipesswiper></recipesswiper>
       </div>
     </div>
