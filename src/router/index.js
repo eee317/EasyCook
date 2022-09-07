@@ -16,6 +16,10 @@ const routes = [
       {
         path: '/recipesContent',
         component: () => import('../views/front/recipesContent.vue')
+      },
+      {
+        path: '/myOrder',
+        component: () => import('../views/front/MyOrder.vue')
       }
     ]
   },

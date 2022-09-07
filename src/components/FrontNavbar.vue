@@ -27,9 +27,10 @@
           <a class="nav-link" href="#">閱讀說明</a>
           <a class="nav-link" href="#">關於輕鬆煮廚</a>
           <a class="nav-link" href="#">食材與廚房用品</a>
-          <a class="nav-link ms-4 d-none d-lg-inline-block" href="#">
+          <router-link to="myOrder" class="nav-link ms-4 d-none d-lg-inline-block">
             <i class="fa-solid fa-utensils fs-5"></i>
-            餐點</a>
+            餐點
+          </router-link>
         </div>
       </div>
     </div>
