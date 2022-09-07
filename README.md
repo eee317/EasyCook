@@ -1,5 +1,6 @@
 # easycook
-
+## github pages 
+[link](https://eee317.github.io/EasyCook/#/)
 ## Project setup
 ```
 npm install
