@@ -60,6 +60,7 @@
 .swiper-button-next, .swiper-rtl .swiper-button-prev {
   right: 40% !important;
 }
+
 @include md-size {
   .swiper-button-next, .swiper-button-prev{
     top: 50% !important;
@@ -70,10 +71,10 @@
   .swiper-button-next, .swiper-rtl .swiper-button-prev {
     right: 10px !important;
   }
+  .mySwiper {
+    .index-card-img::before, .index-card-img-bright::before{
+      bottom: 234px;
+      left: 74px;
+    }
+  }
 }
-// .custom-swiper-wrapper {
-//   transform: translate(0, 0);
-//   .swiper-custom-nav {
-//     position: fixed;
-//   }
-// }

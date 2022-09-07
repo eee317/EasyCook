@@ -9,7 +9,7 @@
     :navigation="true"
     :modules="modules"
     :speed="1000"
-    class="mySwiper position-relative"
+    class="mySwiper"
   >
     <swiper-slide>
       <div class="card bg-bright-green pb-md-5 border-0 text-dark-green">
@@ -30,7 +30,6 @@
               d-flex
               flex-md-column
               align-items-md-start
-              ps-md-4
               py-md-4
               align-items-center
               justify-content-start
@@ -98,7 +97,6 @@
               d-flex
               flex-md-column
               align-items-md-start
-              ps-md-4
               py-md-4
               align-items-center
               justify-content-start
@@ -166,7 +164,6 @@
               d-flex
               flex-md-column
               align-items-md-start
-              ps-md-4
               py-md-4
               align-items-center
               justify-content-start
@@ -234,7 +231,6 @@
               d-flex
               flex-md-column
               align-items-md-start
-              ps-md-4
               py-md-4
               align-items-center
               justify-content-start
@@ -291,7 +287,7 @@ import 'swiper/css'
 import 'swiper/css/pagination'
 import 'swiper/css/navigation'
 
-import { Pagination, Navigation } from 'swiper'
+import { Pagination, Navigation, EffectFade } from 'swiper'
 export default {
   components: {
     Swiper,
@@ -299,7 +295,8 @@ export default {
   },
   setup () {
     return {
-      modules: [Pagination, Navigation]
+      modules: [Pagination, Navigation],
+      EffectFade
     }
   }
 }
