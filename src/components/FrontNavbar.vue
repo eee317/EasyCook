@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-primary bg-bright-green fixed-top shadow">
+  <nav class="navbar navbar-expand-lg navbar-primary bg-bright-green sticky-top shadow">
     <div class="container">
       <a class="navbar-brand" href="#">
         <router-link to="/">
