@@ -1,0 +1,7 @@
+.myOrder-order{
+  .table-striped>tbody>tr:nth-child(odd)>td, 
+  .table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: $card-green-100;
+    color: $dark-green;
+  }
+}

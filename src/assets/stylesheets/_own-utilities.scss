@@ -1,3 +1,9 @@
+//異動BS5的內容
+.btn-outline-primary.btn:hover{
+  color: $own-white
+}
+
+//自定義
 .tl-radius {
   border-radius: 35px 0 0 0;
 }
@@ -13,7 +19,18 @@
 .drop-shadow {
   -webkit-filter: drop-shadow(3px 3px 4px rgba(47, 107, 72, 0.7));
     filter: drop-shadow(3px 3px 4px rgba(47, 107, 72, 0.7))
-} 
+}
+.tl-bl-radius {
+  border-radius: 35px 0 0 35px;
+}
+.tr-br-radius {
+  border-radius: 0 35px 35px 0;
+}
+@include md-size {
+  .radius-md-all {
+    border-radius: 40px;
+  }
+}
 @include lg-size {
   .radius-lg-0 {
     border-radius: 0;
