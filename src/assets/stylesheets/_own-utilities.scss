@@ -2,7 +2,9 @@
 .btn-outline-primary.btn:hover{
   color: $own-white
 }
-
+.color-own-brown-lighten {
+  color: lighten($own-brown, 25%)
+}
 //自定義
 .tl-radius {
   border-radius: 35px 0 0 0;
