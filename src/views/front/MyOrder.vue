@@ -35,29 +35,22 @@
             </tr>
           </thead>
           <tbody class="text-dark-green bg-bright-green">
-            <tr class="">
+            <tr v-for="order in orders" :key="order.id+'order'">
               <th scope="row" class="py-4  border-0 rounded-start align-middle">
                 <i class="text-card-green-300 h3
                 fa-solid fa-circle-xmark m-0"></i>
               </th>
               <td class="py-4 d-none d-lg-table-cell "><img width="180" class="img-fluid rounded-2 border border-card-green-300 border-2 rounded-2"
-              src="https://github.com/eee317/EasyCook/blob/main/src/libs/img/recipe/%E7%8E%89%E7%B1%B3%E7%AD%8D.jpg?raw=true" alt="" ></td>
-              <td class="py-4 border-0 align-middle fs-lg-6">百香果汁</td>
-              <td class="py-4 border-0 align-middle fs-lg-6">百香果</td>
-              <td class="py-4 border-0 align-middle fs-lg-6"></td>
-              <td class="py-4 border-0 align-middle rounded-end fs-lg-6">5 分</td>
-            </tr>
-            <tr>
-              <th scope="row" class="py-4 rounded-start border-0 align-middle">
-                <i class="text-card-green-300 h3
-                fa-solid fa-circle-xmark m-0"></i>
-              </th>
-              <td class="py-4 d-none d-lg-table-cell border-0 align-middle"><img width="180" class="img-fluid rounded-2 border border-2 border-card-green-300"
-              src="https://github.com/eee317/EasyCook/blob/main/src/libs/img/recipe/%E7%8E%89%E7%B1%B3%E7%AD%8D.jpg?raw=true" alt="" ></td>
-              <td class="py-4 border-0 align-middle fs-lg-6">百香果汁</td>
-              <td class="py-4 border-0 align-middle fs-lg-6">百香果</td>
-              <td class="py-4 border-0 align-middle fs-lg-6"></td>
-              <td class="py-4 border-0 align-middle rounded-end fs-lg-6">5 分</td>
+              :src="`${order.image}`" alt="" ></td>
+              <td class="py-4 border-0 align-middle fs-lg-6">{{order.title}}</td>
+              <td class="py-4 border-0 align-middle fs-lg-6">
+                <p v-for="ingredient in order.ingredients"   :key="ingredient" class="m-0 lh-base">
+                  {{ingredient.ingredientsName}}
+                </p></td>
+              <td class="py-4 border-0 align-middle fs-lg-6">
+                {{order.overlappingTime}}
+              </td>
+              <td class="py-4 border-0 align-middle rounded-end fs-lg-6">{{order.time}} 分</td>
             </tr>
           </tbody>
           <tfoot>
@@ -75,7 +68,7 @@
               <td class="border-0"></td>
               <td class="border-0"></td>
               <td class="border-bottom border-3 border-card-img-green-200 fs-lg-6">放置時間 / 分</td>
-              <td class="border-bottom border-3 border-card-img-green-200 fs-lg-6">-10 分</td>
+              <td class="border-bottom border-3 border-card-img-green-200 fs-lg-6">0 分</td>
             </tr>
             <tr class="text-dark-green fw-bold">
               <td class="border-0"></td>
@@ -83,11 +76,63 @@
               <td class="border-0"></td>
               <td class="border-0"></td>
               <th class="py-4 border-0 fs-lg-6">放置時間 / 分</th>
-              <td class="py-4 border-0 fs-lg-6">10 分</td>
+              <td class="py-4 border-0 fs-lg-6">20 分</td>
             </tr>
           </tfoot>
         </table>
       </div>
     </div>
   </div>
+  <div class="container">
+    <div class="row">
+      <h2 class="h1 text-dark-green mt-15 text-lg-start">所需的廚房用品</h2>
+      <div class="myOrder-equipment">
+        <table class="w-100 my-5 table ">
+          <thead class="fs-md-5 text-card-green-300">
+            <tr>
+              <th scope="col"></th>
+              <th scope="col" class="d-none d-lg-table-cell" width="180"></th>
+              <th scope="col">餐點</th>
+              <th scope="col">廚具用品</th>
+              <th scope="col">醬料</th>
+            </tr>
+          </thead>
+          <tbody class="text-dark-green">
+            <tr v-for="order in orders" :key="order.id+'order'">
+              <th scope="row" class="py-4  rounded-start align-middle">
+                <i class="text-card-green-300 h3
+                fa-solid fa-circle-xmark m-0"></i>
+              </th>
+              <td class="py-4 d-none d-lg-table-cell "><img width="180" class="img-fluid rounded-2 border border-card-green-300 border-2 rounded-2"
+              :src="`${order.image}`" alt="" ></td>
+              <td class="py-4 align-middle fs-lg-6">{{order.title}}</td>
+              <td class="py-4 align-middle fs-lg-6">
+                <p v-for="equipment in order.equipment"   :key="equipment" class="m-0 lh-base">
+                  {{equipment}}
+                </p></td>
+              <td class="py-4 align-middle fs-lg-6">
+                <p v-for="sauce in order.sauce"   :key="sauce" class="m-0 lh-base">
+                  {{sauce}}
+                </p></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
 </template>
+<script>
+import { mapState, mapActions } from 'pinia'
+import myOrderStore from '@/stores/myOrderStore'
+export default {
+  computed: {
+    ...mapState(myOrderStore, ['orders'])
+  },
+  methods: {
+    ...mapActions(myOrderStore, ['getMyOrder'])
+  },
+  mounted () {
+    this.getMyOrder()
+  }
+}
+</script>
