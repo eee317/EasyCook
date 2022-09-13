@@ -20,6 +20,10 @@ const routes = [
       {
         path: '/myOrder',
         component: () => import('../views/front/MyOrder.vue')
+      },
+      {
+        path: '/comparison',
+        component: () => import('../views/front/ComparisonView.vue')
       }
     ]
   },
