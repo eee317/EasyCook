@@ -7,9 +7,9 @@
         </router-link>
       </a>
       <div class="d-flex align-items-center">
-        <a class="nav-link ms-4 d-inline-block d-lg-none me-1" href="#">
+        <router-link class="nav-link ms-4 d-inline-block d-lg-none me-1" to="/myOrder">
             <i class="fa-solid fa-utensils fs-5 text-primary"></i>
-            </a>
+            </router-link>
         <button
           class="navbar-toggler border-0"
           type="button"
