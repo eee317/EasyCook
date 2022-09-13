@@ -15,6 +15,12 @@
     --bs-table-striped-bg: none;
   }
 }
+.spacing {
+  table {
+    border-collapse:separate; 
+    border-spacing: 0 5px;
+  }
+}
 
 //移除 table 的 border
 .table-borderless > tbody > tr > td,
