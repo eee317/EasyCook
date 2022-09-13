@@ -1,0 +1,27 @@
+.myOrder-order {
+  .table-striped>tbody>tr:nth-child(odd)>td, 
+  .table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: $card-green-100;
+    color: $dark-green;
+  }
+}
+.comparison {
+  .table-striped>tbody>tr:nth-child(odd)>td, 
+  .table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: $own-skin;
+    color: $own-brown;
+  }
+  .table{
+    --bs-table-striped-bg: none;
+  }
+}
+
+//移除 table 的 border
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}
