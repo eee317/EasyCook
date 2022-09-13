@@ -12,6 +12,10 @@
   color: $primary;
 }
 
+input.border-own-brown::placeholder{
+  color:lighten($own-brown, 25%);
+}
+
 //下拉選單 三角形 靠右
 .dropdown-toggle::after {
   float: right;

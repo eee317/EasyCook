@@ -10,6 +10,13 @@
   background-size:100% 100%;
 }
 
+.myOrder-finishBg {
+  background-image: url('./../libs/img/bgImg/rearch-bg-ellipse-big.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40%;
+}
+
 @include md-size {
   .myOrder-equipment-bg {
     background-image: url('./../libs/img/bgImg/index-bg-pc.png');
