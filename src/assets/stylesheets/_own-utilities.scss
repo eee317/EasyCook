@@ -5,6 +5,9 @@
 .color-own-brown-lighten {
   color: lighten($own-brown, 25%)
 }
+.color-own-brown-lighten-35 {
+  color: lighten($own-brown, 35%)
+}
 //自定義
 .tl-radius {
   border-radius: 35px 0 0 0;
