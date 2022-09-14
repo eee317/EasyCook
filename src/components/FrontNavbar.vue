@@ -24,7 +24,7 @@
       </div>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center fs-6">
-          <a class="nav-link" href="#">閱讀說明</a>
+          <router-link to="readInstructions" class="nav-link">閱讀說明</router-link>
           <a class="nav-link" href="#">關於輕鬆煮廚</a>
           <a class="nav-link" href="#">食材與廚房用品</a>
           <router-link to="myOrder" class="nav-link ms-4 d-none d-lg-inline-block">

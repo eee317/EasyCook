@@ -18,6 +18,15 @@
   background-repeat: no-repeat;
   z-index: -1;
 }
+.read-bg {
+  background-image: url('./../libs/img/bgImg/banner-box-bg.png');
+  background-size: 100% 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@include sm-size{
+}
 @include md-size {
   .comparison-bg-big {
     background-image: url('./../libs/img/bgImg/rearch-bg-ellipse-big.png'),
