@@ -9,7 +9,7 @@
           <div class="d-flex justify-content-md-between my-5">
             <router-link to="/myOrder" class="flex-fill flex-lg-grow-0 flex-lg-shrink-0 btn btn-outline-own-orange tl-bl-radius radius-md-all  py-3 px-5 px-md-7 me-md-4 fs-md-5"><i class="me-2 align-middle h3
                   fa-solid fa-circle-arrow-left"></i>返回餐點</router-link>
-            <button type="button" class="flex-fill flex-lg-grow-0 flex-lg-shrink-0 btn btn-own-orange tr-br-radius radius-md-all text-own-white py-3 px-5 fs-md-5"><i class="me-2 align-middle h3 fa-solid fa-pen-to-square"></i>編輯冰箱</button>
+            <button @click="openModal" type="button" class="flex-fill flex-lg-grow-0 flex-lg-shrink-0 btn btn-own-orange tr-br-radius radius-md-all text-own-white py-3 px-5 fs-md-5"><i class="me-2 align-middle h3 fa-solid fa-pen-to-square"></i>編輯冰箱</button>
           </div>
         </div>
       </div>
@@ -44,13 +44,13 @@
           </div>
         </div>
       </div>
+    </div>
+  </div>
+  <div class="myOrder-equipment-bg mt-10 pt-1 pb-10">
+    <div class="container">
       <div class="row mt-15">
         <h2 class="text-own-brown h1">計算過程</h2>
       </div>
-    </div>
-  </div>
-  <div class="myOrder-equipment-bg py-6">
-    <div class="container">
       <div class="row">
         <div class="spacing">
           <table class=" table table-borderless">
@@ -117,4 +117,19 @@
       </div>
     </div>
   </div>
+  <refrigeratorModal ref="refrigeratorModal"></refrigeratorModal>
 </template>
+<script>
+import refrigeratorModal from '@/components/refrigeratorModal.vue'
+export default {
+  components: {
+    refrigeratorModal
+  },
+  methods: {
+    openModal () {
+      const modal = this.$refs.refrigeratorModal
+      modal.openModal()
+    }
+  }
+}
+</script>
