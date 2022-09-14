@@ -50,4 +50,11 @@
   .indexForm-bg-big {
     right: 25%;
   }
+  .read-bg-big {
+    background-image: url('./../libs/img/bgImg/rearch-bg-ellipse-big.png'),
+    url('./../libs/img/bgImg/rearch-bg-ellipse-tinytiny.png'),url('./../libs/img/bgImg/Ellipse-green.png');
+    background-size: 70px, 20px, 120px;
+    background-position: 90% 50%,10% 80%, 5% 8%;
+    background-repeat: no-repeat;
+  }
 }
