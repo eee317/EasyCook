@@ -8,6 +8,12 @@
 .color-own-brown-lighten-35 {
   color: lighten($own-brown, 35%)
 }
+.color-dark-green-lighten {
+  color: #99ae98;
+}
+.bg-bright-green-opacity {
+  background-color: rgba(254, 255, 246, 0.3);
+}
 //自定義
 .tl-radius {
   border-radius: 35px 0 0 0;
