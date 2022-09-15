@@ -7,6 +7,16 @@
     position: relative;
     font-weight: bold;
   }
+  .nav-link:hover::after {
+    content: '';
+    position: absolute;
+    background: $bg-green;
+    bottom:0;
+    left: 15%;
+    right: 15%;
+    height: 2px;
+    transition-duration:1s;
+  }
   .nav-link.active::after {
     content: '';
     position: absolute;
@@ -15,6 +25,6 @@
     left: 15%;
     right: 15%;
     height: 2px;
-    transition-duration:3s; 
+    transition-duration:1s;
   }
 }
