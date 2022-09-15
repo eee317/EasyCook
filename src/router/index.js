@@ -28,6 +28,10 @@ const routes = [
       {
         path: '/readInstructions',
         component: () => import('../views/front/ReadInstructions.vue')
+      },
+      {
+        path: '/about',
+        component: () => import('../views/front/AboutView.vue')
       }
     ]
   },
