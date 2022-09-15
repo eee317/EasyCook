@@ -26,7 +26,7 @@
         <div class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center fs-6">
           <router-link to="readInstructions" class="nav-link">閱讀說明</router-link>
           <router-link class="nav-link" to="/about">關於輕鬆煮廚</router-link>
-          <a class="nav-link" href="#">食材與廚房用品</a>
+          <router-link class="nav-link" to="/foodAndSupplies">食材與廚房用品</router-link>
           <router-link to="myOrder" class="nav-link ms-4 d-none d-lg-inline-block">
             <i class="fa-solid fa-utensils fs-5"></i>
             餐點
