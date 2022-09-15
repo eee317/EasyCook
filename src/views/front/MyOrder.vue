@@ -31,7 +31,7 @@
               <th scope="col">餐點</th>
               <th scope="col">食材</th>
               <th scope="col">放置時間</th>
-              <th scope="col">花費時間</th>
+              <th scope="col" width="120">花費時間</th>
             </tr>
           </thead>
           <tbody class="text-dark-green bg-bright-green">
@@ -44,8 +44,11 @@
               :src="`${order.image}`" alt="" ></td>
               <td class="py-4 border-0 align-middle fs-lg-6">{{order.title}}</td>
               <td class="py-4 border-0 align-middle fs-lg-6">
-                <p v-for="ingredient in order.ingredients"   :key="ingredient" class="m-0 lh-base">
+                <p v-for="ingredient in order.ingredients"   :key="ingredient" class="text-start text-primary m-0 lh-lg">
                   {{ingredient.ingredientsName}}
+                  <span class="text-dark-green">
+                    / {{ingredient.unit}} {{ingredient.ingredientsNuit}}
+                  </span>
                 </p></td>
               <td class="py-4 border-0 align-middle fs-lg-6">
                 {{order.overlappingTime}}

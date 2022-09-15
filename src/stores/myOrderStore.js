@@ -20,6 +20,9 @@ export default defineStore('myOrderStore', {
         })
     },
     runTimeTotal () {
+      this.timeTotal = 0
+      this.overlappingTimeTotal = 0
+      this.cookTimeTotal = 0
       for (let i = 0; i < this.orders.length; i++) {
         this.timeTotal += this.orders[i].time
       }
