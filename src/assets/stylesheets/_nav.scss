@@ -1,0 +1,20 @@
+.food-nav {
+  .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    color: $primary;
+    background: none;
+  }
+  .nav-link.active{
+    position: relative;
+    font-weight: bold;
+  }
+  .nav-link.active::after {
+    content: '';
+    position: absolute;
+    background: $primary;
+    bottom:0;
+    left: 15%;
+    right: 15%;
+    height: 2px;
+    transition-duration:3s; 
+  }
+}
