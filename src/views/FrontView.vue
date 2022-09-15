@@ -1,6 +1,8 @@
 <template>
 <navbar></navbar>
-<router-view/>
+<div class="main">
+  <router-view/>
+</div>
 <footerview></footerview>
 </template>
 
@@ -11,6 +13,17 @@ export default {
   components: {
     navbar,
     footerview
+  },
+  methods: {
+    bottomFooter () {
+      const navbarHeight = document.querySelector('nav').offsetHeight
+      const footerHeight = document.querySelector('footer').offsetHeight
+      const mainDom = document.querySelector('.main')
+      mainDom.style.minHeight = `calc(100vh - (${navbarHeight}px + ${footerHeight}px))`
+    }
+  },
+  mounted () {
+    this.bottomFooter()
   }
 }
 </script>
