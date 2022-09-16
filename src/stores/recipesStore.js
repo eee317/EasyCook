@@ -3,7 +3,8 @@ import { defineStore } from 'pinia'
 
 export default defineStore('recipesStore', {
   state: () => ({
-    recipes: []
+    recipes: [],
+    isLoading: true
   }),
   actions: {
     getRecipes () {
@@ -12,6 +13,7 @@ export default defineStore('recipesStore', {
           this.recipes = res.data
           console.log(this.recipes)
           console.log(this.recipes.length)
+          setTimeout(this.isLoading = false, 2000)
         })
     }
   }

@@ -53,13 +53,14 @@
           </div>
         </div>
   </div>
+  <loadingPage :isLoading='isLoading'></loadingPage>
 </template>
 <script>
 import { mapState, mapActions } from 'pinia'
 import foodAndSupplies from '@/stores/FoodAndSuppliesStore'
 export default {
   computed: {
-    ...mapState(foodAndSupplies, ['FASdata', 'FASfilter'])
+    ...mapState(foodAndSupplies, ['FASdata', 'FASfilter', 'isLoading'])
   },
   methods: {
     ...mapActions(foodAndSupplies, ['getFAS', 'runFilter'])

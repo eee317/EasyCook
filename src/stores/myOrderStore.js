@@ -5,7 +5,8 @@ export default defineStore('myOrderStore', {
     orders: [],
     timeTotal: 0,
     overlappingTimeTotal: 0,
-    cookTimeTotal: 0
+    cookTimeTotal: 0,
+    isLoading: true
   }),
   actions: {
     getMyOrder () {
@@ -17,6 +18,7 @@ export default defineStore('myOrderStore', {
           this.runTimeTotal()
           this.runOverlappingTimeTotal()
           this.runCookTimeTotal()
+          setTimeout(this.isLoading = false, 2000)
         })
     },
     runTimeTotal () {

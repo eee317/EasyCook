@@ -47,6 +47,7 @@
       </div>
     </div>
   </div>
+  <loadingPage :isLoading='isLoading'></loadingPage>
 </template>
 
 <script>
@@ -60,7 +61,7 @@ export default {
     }
   },
   computed: {
-    ...mapState(recipesStore, ['recipes'])
+    ...mapState(recipesStore, ['recipes', 'isLoading'])
   },
   components: {
     searchform

@@ -3,7 +3,8 @@ import { defineStore } from 'pinia'
 export default defineStore('foodAndSuppliesStore', {
   state: () => ({
     FASdata: [],
-    FASfilter: []
+    FASfilter: [],
+    isLoading: true
   }),
   actions: {
     getFAS () {
@@ -11,6 +12,7 @@ export default defineStore('foodAndSuppliesStore', {
         .then(res => {
           this.FASdata = res.data
           console.log(this.FASdata)
+          setTimeout(this.isLoading = false, 2000)
         })
     },
     runFilter (tag) {

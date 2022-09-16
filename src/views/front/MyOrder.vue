@@ -164,6 +164,7 @@
       </div>
     </div>
   </div>
+  <loadingPage :isLoading='isLoading'></loadingPage>
 </template>
 <script>
 import { mapState, mapActions } from 'pinia'
@@ -174,7 +175,7 @@ export default {
     }
   },
   computed: {
-    ...mapState(myOrderStore, ['orders', 'timeTotal', 'overlappingTimeTotal', 'cookTimeTotal'])
+    ...mapState(myOrderStore, ['orders', 'timeTotal', 'overlappingTimeTotal', 'cookTimeTotal', 'isLoading'])
   },
   methods: {
     ...mapActions(myOrderStore, ['getMyOrder'])
