@@ -14,7 +14,7 @@ const routes = [
         component: () => import('../views/front/SearchResults.vue')
       },
       {
-        path: '/recipesContent',
+        path: '/recipesContent/:id',
         component: () => import('../views/front/recipesContent.vue')
       },
       {
