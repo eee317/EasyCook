@@ -42,7 +42,7 @@
                 <p v-for="sauce in recipe.sauce" :key="sauce+recipe.id+'醬料'"
                 class="fs-6 fs-lg-5 m-0 me-6 py-3">{{sauce}}
                 </p>
-                <span class="fs-6 fs-lg-5 m-0 me-6 py-3" v-if="recipe.sauce.length==0">無</span>
+                <span class="fs-6 fs-lg-5 m-0 me-6 py-3" v-if="recipe.sauce?.length==0">無</span>
               </div>
             </li>
             <li class="d-flex align-items-center">
@@ -50,7 +50,7 @@
               <div class="d-flex flex-grow-1 border-bottom border-2 border-card-img-green-200">
                 <p v-for="equipment in recipe.equipment" :key="equipment+recipe.id+'用具'"
                 class="fs-6 fs-lg-5 m-0 me-6 py-3">{{equipment}}</p>
-                <span class="fs-6 fs-lg-5 m-0 me-6 py-3" v-if="recipe.equipment.length==0">無</span>
+                <span class="fs-6 fs-lg-5 m-0 me-6 py-3" v-if="recipe.equipment?.length==0">無</span>
               </div>
             </li>
           </ul>
