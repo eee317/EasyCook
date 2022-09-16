@@ -40,7 +40,9 @@
               <h2 class="m-0 pe-4 pe-lg-10">醬料</h2>
               <div class="d-flex flex-grow-1 border-bottom border-2 border-card-img-green-200">
                 <p v-for="sauce in recipe.sauce" :key="sauce+recipe.id+'醬料'"
-                class="fs-6 fs-lg-5 m-0 me-6 py-3">{{sauce}}</p>
+                class="fs-6 fs-lg-5 m-0 me-6 py-3">{{sauce}}
+                </p>
+                <span class="fs-6 fs-lg-5 m-0 me-6 py-3" v-if="recipe.sauce.length==0">無</span>
               </div>
             </li>
             <li class="d-flex align-items-center">
@@ -48,6 +50,7 @@
               <div class="d-flex flex-grow-1 border-bottom border-2 border-card-img-green-200">
                 <p v-for="equipment in recipe.equipment" :key="equipment+recipe.id+'用具'"
                 class="fs-6 fs-lg-5 m-0 me-6 py-3">{{equipment}}</p>
+                <span class="fs-6 fs-lg-5 m-0 me-6 py-3" v-if="recipe.equipment.length==0">無</span>
               </div>
             </li>
           </ul>
@@ -72,7 +75,7 @@
           <h5 class="d-inline-block drop-shadow">的小筆記</h5>
           <div class="drop-shadow mb-10 mt-5 mt-md-0">
             <p v-for="other in recipe.other" :key="other+recipe.id"
-            class="fw-bold">{{other}}</p>
+            class="fw-bold fs-md-6">{{other}}</p>
           </div>
           <button class="position-absolute bottom-0 start-50 translate-middle-x
           d-inline-block text-center mt-3 mt-lg-0 py-2 px-6 btn btn-primary text-own-white rounded-pill align-middle fs-6">
