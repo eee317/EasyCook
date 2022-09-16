@@ -67,11 +67,12 @@
         </div>
       </div>
       <div class="col-md-12">
+        <router-link to="/searchResults">
         <input
             type="button"
             value="搜尋"
             class="mt-6 fs-5 px-7 btn btn-primary rounded-pill text-own-white"
-          />
+          /></router-link>
       </div>
     </div>
   </div>
