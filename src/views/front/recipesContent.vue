@@ -10,8 +10,8 @@
           </button>
         </div>
         <div class="mt-5 mb-4 d-flex">
-          <span class="badge rounded-pill bg-own-bright-blue text-start px-4 py-3 me-3 fs-6"><i class="fa-solid fa-clock me-2"></i>可放置</span>
-          <span class="badge rounded-pill bg-own-orange text-start px-4 py-3 fs-6"><i class="fa-solid fa-carrot me-2"></i>素</span>
+          <span v-if="recipe.wait===true" class="badge rounded-pill bg-own-bright-blue text-start px-4 py-3 me-3 fs-6"><i class="fa-solid fa-clock me-2"></i>可放置 {{recipe.overlappingTime}} 分鐘</span>
+          <span v-if="recipe.meatAndVegetable!=='葷'" class="badge rounded-pill bg-own-orange text-start px-4 py-3 fs-6"><i class="fa-solid fa-carrot me-2"></i>{{recipe.meatAndVegetable}}</span>
         </div>
         <div>
           <div class="recipesContent-img d-none d-lg-block" :style="{'background-image': 'url(' + this.recipe.image + ')'}"></div>
