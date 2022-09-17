@@ -33,7 +33,9 @@
               <h2 class="m-0 pe-4 pe-lg-10">食材</h2>
               <div class="d-flex flex-grow-1 border-bottom border-2 border-card-img-green-200">
                 <p v-for="ingredient in recipe.ingredients" :key="ingredient+recipe.id+'食材'"
-                class=" fs-6 fs-lg-5 m-0 me-6 py-3">{{ingredient.ingredientsName}} {{ingredient.unit}} {{ingredient.ingredientsNuit}}</p>
+                class=" fs-6 fs-lg-5 m-0 me-6 py-3">{{ingredient.ingredientsName}}
+                <span class="text-own-orange">{{ingredient.unit}} {{ingredient.ingredientsNuit}}
+                  </span></p>
               </div>
             </li>
             <li class="d-flex align-items-center mb-4 mb-lg-10">
