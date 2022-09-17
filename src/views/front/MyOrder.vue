@@ -148,6 +148,14 @@
               <h6 class="color-own-brown-lighten me-4 fs-lg-6">數量</h6>
             </div>
             <div class="text-own-brown px-5 d-flex mb-3">
+              <input class="px-4 py-3 form-control tl-bl-radius border-0 border-top border-bottom border-start border-own-brown text-own-brown fs-lg-6" type="text" placeholder="請輸入文字" aria-label="default input example" value="蔥">
+              <input class="pe-5 py-3 form-control tr-br-radius tl-bl-radius text-end border-0 border-top border-end border-bottom border-start border-own-brown text-own-brown fs-lg-6" type="number" placeholder="請輸入數字" aria-label="default input example" value="3">
+            </div>
+            <div class="text-own-brown px-5 d-flex mb-3">
+              <input class="px-4 py-3 form-control tl-bl-radius border-0 border-top border-bottom border-start border-own-brown text-own-brown fs-lg-6" type="text" placeholder="請輸入文字" aria-label="default input example" value="玉米">
+              <input class="pe-5 py-3 form-control tr-br-radius tl-bl-radius text-end border-0 border-top border-end border-bottom border-start border-own-brown text-own-brown fs-lg-6" type="number" placeholder="請輸入數字" aria-label="default input example" value="1">
+            </div>
+            <div class="text-own-brown px-5 d-flex mb-3">
               <input class="px-4 py-3 form-control tl-bl-radius border-0 border-top border-bottom border-start border-own-brown text-own-brown fs-lg-6" type="text" placeholder="請輸入文字" aria-label="default input example" value="百香果">
               <input class="pe-5 py-3 form-control tr-br-radius tl-bl-radius text-end border-0 border-top border-end border-bottom border-start border-own-brown text-own-brown fs-lg-6" type="number" placeholder="請輸入數字" aria-label="default input example" value="1">
             </div>

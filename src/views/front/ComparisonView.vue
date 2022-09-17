@@ -28,15 +28,29 @@
                   <tr class="">
                     <td class="py-4 rounded-start rounded-1 align-middle fs-lg-6">五花豬肉片</td>
                     <td class="py-4 text-own-orange align-middle fs-lg-6">
-                    1 盒</td>
+                    0.5 盒</td>
                     <td class="py-4 rounded-end rounded-1 align-middle fs-lg-6">豬肉蔥卷
                     </td>
                   </tr>
                   <tr class="">
-                    <td class="py-4 rounded-start rounded-1 align-middle fs-lg-6">五花豬肉片</td>
+                    <td class="py-4 rounded-start rounded-1 align-middle fs-lg-6">軟排骨</td>
                     <td class="py-4 text-own-orange align-middle fs-lg-6">
-                    1 盒</td>
-                    <td class="py-4 rounded-end rounded-1 align-middle fs-lg-6">豬肉蔥卷
+                    2 塊</td>
+                    <td class="py-4 rounded-end rounded-1 align-middle fs-lg-6">玉米排骨湯
+                    </td>
+                  </tr>
+                  <tr class="">
+                    <td class="py-4 rounded-start rounded-1 align-middle fs-lg-6">薑</td>
+                    <td class="py-4 text-own-orange align-middle fs-lg-6">
+                    1 片</td>
+                    <td class="py-4 rounded-end rounded-1 align-middle fs-lg-6">玉米排骨湯
+                    </td>
+                  </tr>
+                  <tr class="">
+                    <td class="py-4 rounded-start rounded-1 align-middle fs-lg-6">中華嫩豆腐</td>
+                    <td class="py-4 text-own-orange align-middle fs-lg-6">
+                    0.5 盒</td>
+                    <td class="py-4 rounded-end rounded-1 align-middle fs-lg-6">涼拌豆腐
                     </td>
                   </tr>
               </tbody>
@@ -64,27 +78,63 @@
             </thead>
             <tbody class="text-own-brown bg-own-skin">
                 <tr class="mb-5">
-                  <td class="py-4 rounded-start rounded-1 align-middle fs-lg-6">五花肉片</td>
+                  <td class="py-4 rounded-start rounded-1 align-middle fs-lg-6">玉米</td>
                   <td class="py-4 align-middle fs-lg-6">
-                    1盒
+                    0.5根
                   </td>
                   <td class="py-4 align-middle fs-lg-6">
-                    豬肉蔥卷
+                    玉米排骨湯
                   </td>
                   <td class="py-4 align-middle rounded-end rounded-1 fs-lg-6 text-own-orange">
-                    少1盒
+                    冰箱多 0.5 根
+                  </td>
+                </tr>
+                <tr class="mb-5">
+                  <td class="py-4 rounded-start rounded-1 align-middle fs-lg-6">薑</td>
+                  <td class="py-4 align-middle fs-lg-6">
+                    1 片
+                  </td>
+                  <td class="py-4 align-middle fs-lg-6">
+                    玉米排骨湯
+                  </td>
+                  <td class="py-4 align-middle rounded-end rounded-1 fs-lg-6 text-own-orange">
+                    少 1 片
+                  </td>
+                </tr>
+                <tr class="mb-5">
+                  <td class="py-4 rounded-start rounded-1 align-middle fs-lg-6">軟排骨</td>
+                  <td class="py-4 align-middle fs-lg-6">
+                    0.5盒
+                  </td>
+                  <td class="py-4 align-middle fs-lg-6">
+                    玉米排骨湯
+                  </td>
+                  <td class="py-4 align-middle rounded-end rounded-1 fs-lg-6 text-own-orange">
+                    少 0.5 盒
                   </td>
                 </tr>
                 <tr class="mb-5">
                   <td class="py-4 rounded-start rounded-1 align-middle fs-lg-6">蔥</td>
                   <td class="py-4 align-middle fs-lg-6">
-                    1根
+                    2.3根
+                  </td>
+                  <td class="py-4 align-middle fs-lg-6">
+                    豬肉蔥卷、涼拌豆腐
+                  </td>
+                  <td class="py-4 align-middle rounded-end rounded-1 fs-lg-6 text-own-orange">
+                    冰箱多 0.3 根
+                  </td>
+                </tr>
+                <tr class="mb-5">
+                  <td class="py-4 rounded-start rounded-1 align-middle fs-lg-6">火鍋五花肉片</td>
+                  <td class="py-4 align-middle fs-lg-6">
+                    0.5盒
                   </td>
                   <td class="py-4 align-middle fs-lg-6">
                     豬肉蔥卷
                   </td>
                   <td class="py-4 align-middle rounded-end rounded-1 fs-lg-6 text-own-orange">
-                    冰箱多3根
+                    少 0.5 盒
                   </td>
                 </tr>
                 <tr class="mb-5">
@@ -100,12 +150,12 @@
                   </td>
                 </tr>
                 <tr class="mb-5">
-                  <td class="py-4 rounded-start rounded-1 align-middle fs-lg-6">玉米</td>
+                  <td class="py-4 rounded-start rounded-1 align-middle fs-lg-6">中華嫩豆腐</td>
                   <td class="py-4 align-middle fs-lg-6">
-                    1根
+                    0.5盒
                   </td>
                   <td class="py-4 align-middle fs-lg-6">
-                    玉米排骨湯
+                    涼拌豆腐
                   </td>
                   <td class="py-4 align-middle rounded-end rounded-1 fs-lg-6">
                     數量剛好
