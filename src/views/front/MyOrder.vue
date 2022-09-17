@@ -71,7 +71,7 @@
               <td class="border-0"></td>
               <td class="border-0"></td>
               <td class="border-bottom border-3 border-card-img-green-200 fs-lg-6">放置時間 / 分</td>
-              <td class="border-bottom border-3 border-card-img-green-200 fs-lg-6">{{overlappingTimeTotal}} 分</td>
+              <td class="border-bottom border-3 border-card-img-green-200 fs-lg-6">- {{overlappingTimeTotal}} 分</td>
             </tr>
             <tr class="text-dark-green fw-bold">
               <td class="border-0"></td>
