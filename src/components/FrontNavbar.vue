@@ -27,7 +27,7 @@
           <router-link @click="closeMenu" to="readInstructions" class="nav-link">閱讀說明</router-link>
           <router-link @click="closeMenu" class="nav-link" to="/about">關於輕鬆煮廚</router-link>
           <router-link @click="closeMenu" class="nav-link" to="/foodAndSupplies">食材與廚房用品</router-link>
-          <router-link @click="closeMenu" to="myOrder" class="nav-link ms-4 d-none d-lg-inline-block">
+          <router-link @click="closeMenu" to="/myOrder" class="nav-link ms-4 d-none d-lg-inline-block">
             <i class="fa-solid fa-utensils fs-5"></i>
             餐點
           </router-link>
